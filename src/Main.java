@@ -6,12 +6,12 @@ public class Main {
         int length;
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        char[] characters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
-                             'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B',
-                             'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
-                             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '1', '2', '3', '4',
-                             '5', '6', '7', '8', '9', '0', '#', '$', '%', '&', '*', '+', '[', ']',
-                             '!'};
+        char[] characters = {'#', 'a', 'A', '1', 'b', 'B', 'c', 'C', '$', 'd', 'D', '2', 'e', 'E',
+                             '%', 'f', 'F', 'g', 'G', '4', 'h', 'H', '&', 'i', 'I', 'j', 'J', '5',
+                             'k', 'K', '*', 'l', 'L', 'm', 'M', '6', 'n', 'N', '+', 'o', 'O', 'p',
+                             'P', '7', 'q', 'Q', '[', 'r', 'R', 's', 'S', '8', 't', 'T', ']', 'u',
+                             'U', 'v', 'V', '9', 'w', 'W', '!', 'x', 'X', 'y', 'Y', '0', 'z', 'Z',
+                             '@'};
 
         System.out.print("Length: ");
         length = scanner.nextInt();
